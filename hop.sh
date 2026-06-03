@@ -4,12 +4,12 @@
 #  Roblox private-server hopper for Termux (non-root)
 #  repo: github.com/lucivaantarez/hwhop
 # ============================================================
-VERSION="1.0.0"
+VERSION="1.0.1"
 
 # ---------------- CONFIG ----------------
 REPO_RAW="https://raw.githubusercontent.com/lucivaantarez/hwhop/main"
 LINKS_URL="$REPO_RAW/links.txt"
-HOLD_SECONDS=30                 # seconds to stay in each server before auto-hop
+HOLD_SECONDS=60                 # seconds to stay in each server before auto-hop
 STATE_DIR="$HOME/.hop"
 INNER=36                        # panel inner width (keeps borders symmetrical)
 # ----------------------------------------
